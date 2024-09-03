@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Figtree',sans-serif;
+}
+
+main{
+    border: 1px solid;
+    padding: 1rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(47, 88%, 63%);
+}
+
+.card{
+    border: 1px solid hsl(0, 0%, 42%);
+    padding: 1rem;
+    width: 350px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 0.5rem 0.5rem hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card > img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+button{
+    background: hsl(47, 88%, 63%);
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.heading p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-content p{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.profile{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile p{
+    font-size: 16px;
+    font-weight: 800;
+}
+
